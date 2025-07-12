@@ -18,6 +18,28 @@ body{
     margin: 0 auto;
     background-color: #F5F8FF;
 }
+
+
+
+/*all button design here*/
+body button{
+    font-size: 16px;
+    color: #ffffff;
+    padding: 12px 36px;
+    font-family: "Raleway", sans-serif;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+}
+body button:hover{
+    color: #4E47FF;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+
+
 #headerSection{
     display: flex;
     flex-direction: column;
@@ -41,16 +63,6 @@ body{
     color: #4E47FF;
     font-weight: 800;
 }
-.menuBar button{
-    font-size: 16px;
-    color: #ffffff;
-    padding: 12px 36px;
-    font-family: "Raleway", sans-serif;
-    background-color: #4E47FF;
-    border: none;
-    border-radius: 10px;
-    font-weight: 600;
-}
 
 .headerContent{
     margin: 158px 0 200px 0;
@@ -67,16 +79,6 @@ body{
     font-weight: bold;
     text-align: center;
     color: #252432;
-}
-.headerContent button{
-    font-size: 16px;
-    color: #ffffff;
-    padding: 12px 36px;
-    font-family: "Raleway", sans-serif;
-    background-color: #4E47FF;
-    border: none;
-    border-radius: 10px;
-    font-weight: 600;
 }
 
 
@@ -105,16 +107,6 @@ body{
     color: #252432;
     opacity: 50%;
     font-family: "Raleway", sans-serif;
-}
-.oneTextBtn button{
-    font-size: 16px;
-    color: #ffffff;
-    padding: 12px 36px;
-    font-family: "Raleway", sans-serif;
-    background-color: #4E47FF;
-    border: none;
-    border-radius: 10px;
-    font-weight: 600;
 }
 .oneImage img{
     width: 403px;
@@ -265,17 +257,60 @@ body{
     color: #000000;
     opacity: 50%;
 }
-.sectionFourText button{
-    font-size: 16px;
-    color: #ffffff;
-    padding: 12px 36px;
-    font-family: "Raleway", sans-serif;
-    background-color: #4E47FF;
-    border: none;
-    border-radius: 10px;
-    font-weight: 600;
-    margin-bottom: 20px;
-}
 .sectionFourImg img{
     border-radius: 48px;
+}
+
+
+/*section five*/
+#sectionFive{
+    width: 1140px;
+    margin: 130px auto;
+}
+.sectionFiveMargin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sectionFiveFormItems{
+    display: flex;
+    flex-direction: column;
+}
+.sectionFiveBigText h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 97px;
+    font-weight: bold;
+}
+.sectionFourContentMargin button{
+    margin-bottom: 20px;
+}
+.sectionFourContentMargin button:hover{
+    background-color: #F5F8FF;
+}
+.sectionFiveFormItems label{
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 10px;
+}
+.sectionFiveFormItems input{
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    padding: 20px 32px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    background-color: #FFFFFF;
+    margin-bottom: 19px;
+}
+.sectionFiveFormItems textarea{
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    padding: 20px 32px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    background-color: #FFFFFF;
+    margin-bottom: 19px;
+}
+.sectionFiveFormItems placeholder{
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
 }
