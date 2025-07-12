@@ -314,3 +314,47 @@ body button:hover{
     font-size: 20px;
     font-family: "Inter", sans-serif;
 }
+
+/*footer section*/
+#footerSection{
+    margin: 130px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 130px;
+}
+.footerLogoText h1{
+    font-size: 100px;
+    font-family: "Inter", sans-serif;
+    color: #4E47FF;
+    font-weight: 800;
+    margin: 10px 0;
+    text-align: center;
+}
+.footerLogoText p{
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    color: #8987A1;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 20px 245px;
+}
+.tooterNavigationListContainer{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+.tooterNavigationListContainer li a{
+    list-style: none;
+    font-size: 16px;
+    color: #8987A1;
+    font-family: "Inter", sans-serif;
+}
+.tooterNavigationListContainer li a:hover{
+    list-style: none;
+    font-size: 16px;
+    color: #8987A1;
+    font-family: "Inter", sans-serif;
+}
