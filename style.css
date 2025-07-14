@@ -14,7 +14,7 @@
 
 /*menu bar section*/
 body{
-    max-width: 1440px;
+    width: 1440px;
     margin: 0 auto;
     background-color: #F5F8FF;
 }
